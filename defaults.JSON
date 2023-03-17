@@ -1,0 +1,27 @@
+[{
+    "url_domain": "https://publicrecords.copyright.gov/advanced-search",
+    "records_per_page": 100,
+    "subquerys": [],
+    "page_number": 0,
+    "date_field": "representative_date",
+    "sort_field": "representative_date",
+    "sort_order": "desc"
+},
+
+{
+    "queryTerm": "ASTM International",
+	"operatorType": "",
+    "fieldHeading": "Claimants",
+    "searchType": "Is (exact)",
+    "searchTypeReverseLookup":{"exact":"Is (exact)","starts_with":"Starts with","contains":"Contains","phrase":"As a Phrase"}
+},
+
+{
+    "queryTerm":"ASSET_ID",
+    "operatorType":"AND",
+    "fieldHeading":"Title",
+    "searchType":"Contains",
+    "searchTypeReverseLookup":{"exact":"Is (exact)","starts_with":"Starts with","contains":"Contains","phrase":"As a Phrase"}
+}
+
+] 
